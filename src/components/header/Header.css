@@ -1,0 +1,49 @@
+/* Default styles */
+.Navigation {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #aa4b6b;
+  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+  z-index: 1000;
+}
+
+.Brand {
+  margin-top: 20px;
+  font-size: 15px;
+  color: white;
+}
+
+.Navlink {
+  text-decoration: none;
+  color: white;
+  margin-top: -25px;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.Navlink:hover {
+  color: wheat;
+}
+
+.Navlink.active {
+  color: wheat;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .Navlink {
+    font-size: 20px; /* Adjust font size for smaller screens */
+    margin-right: 5px; /* Reduce margin for smaller screens */
+  }
+
+  .Brand {
+    margin-top: 10px; /* Adjust margin for smaller screens */
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+}

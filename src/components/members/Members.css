@@ -1,0 +1,26 @@
+.card_container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* For tablets and larger devices */
+@media screen and (max-width: 1024px) {
+  .card_container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* For smaller devices such as smartphones */
+@media screen and (max-width: 768px) {
+  .card_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* For very small devices like small smartphones */
+@media screen and (max-width: 480px) {
+  .card_container {
+    grid-template-columns: 1fr;
+  }
+}

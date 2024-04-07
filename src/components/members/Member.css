@@ -1,0 +1,41 @@
+.my_card {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+
+  box-shadow: inset 5px 5px 7px #c3bfc5, 5px 5px 7px #bfc5c4;
+
+  background-image: linear-gradient(
+    to right bottom,
+    #d7dde6,
+    #d8dbe6,
+    #dad8e4,
+    #ddd5e2,
+    #e0d2de
+  );
+}
+
+.profile_pic {
+  display: flex;
+  justify-content: center;
+}
+
+.profile_pic img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.member_name {
+  text-align: center;
+  font-size: 20px;
+  color: blue;
+}
+
+.title {
+  font-weight: bold;
+  color: #e070b0;
+}
